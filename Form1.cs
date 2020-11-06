@@ -70,7 +70,7 @@ namespace BgwTest
             bwg2.CancelAsync();
         }
 
-        BackgroundWorker [] vett = new BackgroundWorker[100];           //sostituzione alla lista
+        BackgroundWorker [] v = new BackgroundWorker[100];           //sostituzione alla lista
         private void btnAvvio100_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < 100; i++)
